@@ -1,0 +1,12 @@
+appId: com.evisionit.sahan
+productName: EvisonIT
+copyright: Copyright © 2024 Sahan Sachintha (Evision IT)
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+publish: null

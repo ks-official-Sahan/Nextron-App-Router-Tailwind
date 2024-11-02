@@ -1,0 +1,38 @@
+{
+  "private": true,
+  "name": "WiseBiz",
+  "description": "App developed by Sahan Sachintha with Evision IT (PVT) Ltd.",
+  "version": "1.0.0",
+  "author": "Sahan Sachintha <ks.official.sahan@gmail.com> (sahansachintha.com - evisionit.lk)",
+  "main": "app/background.js",
+  "scripts": {
+    "dev": "nextron dev",
+    "dev:dev": "nextron",
+    "dev:port": "nextron --renderer-port 3005",
+    "dev:web": "next dev -p 3001",
+    "dev:web:port": "next dev -p 3001",
+    "build": "nextron build",
+    "build:desktop": "nextron build --windows --mac --linux",
+    "start": "nextron start",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "dependencies": {
+    "@babel/runtime-corejs3": "^7.26.0",
+    "electron-serve": "^1.3.0",
+    "electron-store": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "@types/react": "^18.2.52",
+    "autoprefixer": "^10.4.19",
+    "electron": "^31.0.1",
+    "electron-builder": "^24.13.3",
+    "next": "^15.0.2",
+    "nextron": "^9.1.0",
+    "postcss": "^8.4.38",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5"
+  }
+}
